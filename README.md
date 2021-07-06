@@ -11,7 +11,7 @@ The main benefit of using **'let'** and **'const'** over **'var'** is that when 
 
 # Replace **'for'** loops with **map**
 
-Suppose we have an array of numbers and we need to produce another array by doubling all the numbers in the array.
+Suppose, we have an array of numbers and we need to produce another array by doubling all the numbers in the array.
 The first solution that comes into our mind is to\ 
 **declare an empty array**\
 **write a for loop**\
@@ -22,7 +22,7 @@ But we have a more simple and easier solution by mapping the array to another ar
 
 # Replace **'for'** loops with **filter**
 
-Suppose we have an array of numbers and we need to produce another array that contains only the even number from the first array.
+Suppose, we have an array of numbers and we need to produce another array that contains only the even number from the first array.
 The first solution that comes into our mind is to\ 
 **declare an empty array**\
 **write a for loop**\
@@ -33,13 +33,14 @@ Or, we could simply use the **filter** method:\
 
 
 # Replace **'for'** loops with **reduce**
-Suppose we need to calculate the sum of all numbers in the array.
+Suppose, we need to calculate the sum of all numbers in the array.
 The first solution that comes into our mind is to\
 **declare a variable initializing its initial value to Zero**\
-**write a for loop that takes each number and adds the value to our created variable**\
+**write a for loop that takes each number and adds the value to our created variable**
 
 Or, We can simply use **reduce** method:\
 **[1,2,3,4,5,6].reduce((a,b) => a + b); //Output: 21**\
+
 **This method takes first two elements as parameter and adds them and reduces the element and so on.**
 
 # Server-Side JavaScript with Node.JS 
