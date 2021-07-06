@@ -9,7 +9,7 @@ ES2015 introduced two new way of declaring variables: **let** and **const**.
 
 The main benefit of using **'let'** and **'const'** over **'var'** is that when using var our code gets scoped to the top of current function, therefore making the variable available to whole function. Therefore, with the use of **'let'** and **'const'**, we do not need to worry about the variable scope leaking outside.
 
-# Replace **'for'** loops with **map**
+# Replace **'for'** loops with **'map'**
 
 Suppose, we have an array of numbers and we need to produce another array by doubling all the numbers in the array.
 The first solution that comes into our mind is to\ 
@@ -20,7 +20,7 @@ The first solution that comes into our mind is to\
 But we have a more simple and easier solution by mapping the array to another arrray:\
 **[1,2,3,4].map((num) => num * 2); //Output: [2,4,6,8]**
 
-# Replace **'for'** loops with **filter**
+# Replace **'for'** loops with **'filter'**
 
 Suppose, we have an array of numbers and we need to produce another array that contains only the even number from the first array.
 The first solution that comes into our mind is to\ 
@@ -32,7 +32,7 @@ Or, we could simply use the **filter** method:\
 **[1,2,3,4,5,6].filter((num) => num % 2 === 0); //Output: [2,4,6]**
 
 
-# Replace **'for'** loops with **reduce**
+# Replace **'for'** loops with **'reduce'**
 Suppose, we need to calculate the sum of all numbers in the array.
 The first solution that comes into our mind is to\
 **declare a variable initializing its initial value to Zero**\
