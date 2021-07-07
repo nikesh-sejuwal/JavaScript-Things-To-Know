@@ -17,8 +17,8 @@
 
 ES2015 introduced two new way of declaring variables: **let** and **const**.
 
-**'let'** is used when a variable will be reasigned.
-**'const'** is used when we need to keep a variable protected from being reasigned.
+**'let'** is used when a variable will be reassigned.
+**'const'** is used when we need to keep a variable protected from being reassigned.
 
 **Note: 'const' does not freeze arrays and objects and it doesn't stop properties from being mutated or changed.**
 
@@ -32,7 +32,7 @@ The first solution that comes into our mind is to\
 **write a for loop**\
 **append a number in the second array by looking up the index on first array by doubling the number**
 
-But we have a more simple and easier solution by mapping the array to another arrray:\
+But we have a more simple and easier solution by mapping the array to another array:\
 **[1,2,3,4].map((num) => num * 2); //Output: [2,4,6,8]**
 
 # REPLACE **'FOR'** LOOPS WITH **'FILTER'**
@@ -69,7 +69,7 @@ Angular is a framework maintained by Google along with open-source community. Re
 It has strong opinions on how applications are structured, which can make it difficult to learn. It also makes use of **TypeScript** - a superset of JavaScript that allows the use of typed values. Unlike React, Angular uses two-way bindings, which allows user input to directly change the state. This makes data easier to manage.
 
 React is a view library maintained by the Facebook engineering team. Applications written with React carry a component-based architecture, keeping things small and composable. It often adopts functional paradigms to solve problems. Applications are built using individual components, which hold information about themselves in a state object. The way an application displays depends purely on these states.\
-Unlike most front-end frameworks, React only provides the view layer of an application. The rest can be pieced together based on the needs of yout project. Seperate packages can deal with the likes of routing and form creation on React's behalf.
+Unlike most front-end frameworks, React only provides the view layer of an application. The rest can be pieced together based on the needs of your project. Separate packages can deal with the likes of routing and form creation on React's behalf.
 
 You will often hear a dispute between Angular and React developers on which is a better framework but that is up to you to decide on what suits you the most.
 
@@ -77,7 +77,7 @@ You will often hear a dispute between Angular and React developers on which is a
 Redux Library helps us to keep up with the application's state while writing a dynamic user interfaces. Redux is commonly used alongside React and is slowly adopted by the Angular community. If we are writing a large application, we should be using Redux from get-go since it helps us to write applications that behave consistently and offers great developer experience.
 
 # REMEMBER SEMICOLONS ARE OPTIONAL
-The official specification of JavaScript language has a feature called automatic semicolon inerstion that has caused riots within the community. Most of the developers are now dropping semicolons in their JavaScript code, mostly due to personal preference. If that's something you are interested in doing, make sure to use a code linter such as **ESLint** to help you avoid some bugs.
+The official specification of JavaScript language has a feature called automatic semicolon insertion that has caused riots within the community. Most of the developers are now dropping semicolons in their JavaScript code, mostly due to personal preference. If that's something you are interested in doing, make sure to use a code linter such as **ESLint** to help you avoid some bugs.
 
 # ESLint
-As JavScript is a loosely typed language, perfectly valid code also can cause unexpected problems. ESLint is a tool that can check through our files for common issues that we might not have intended. By running ESlint, it checks all JavaScript files in the project directory. All that is required is a **.eslintrc** configuration file that details the rules to follow. 
+As JavaScript is a loosely typed language, perfectly valid code also can cause unexpected problems. ESLint is a tool that can check through our files for common issues that we might not have intended. By running ESlint, it checks all JavaScript files in the project directory. All that is required is a **.eslintrc** configuration file that details the rules to follow. 
