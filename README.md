@@ -1,3 +1,17 @@
+- [New Ways of Declaring Variables](#new-ways-of-declaring-variables)
+    - [**'let'** is used when a variable will be reasigned.](#let-is-used-when-a-variable-will-be-reasigned)
+    - [**'const'** is used when we need to keep a variable protected from being reasigned.](#const-is-used-when-we-need-to-keep-a-variable-protected-from-being-reasigned)
+  - [Note: **'const'** does not freeze arrays and objects and it doesn't stop properties from being mutated or changed.](#note-const-does-not-freeze-arrays-and-objects-and-it-doesnt-stop-properties-from-being-mutated-or-changed)
+- [Replace **'for'** loops with **'map'**](#replace-for-loops-with-map)
+- [Replace **'for'** loops with **'filter'**](#replace-for-loops-with-filter)
+- [Replace **'for'** loops with **'reduce'**](#replace-for-loops-with-reduce)
+- [Server-Side JavaScript with Node.JS](#server-side-javascript-with-nodejs)
+- [NPM: The World's Largest Package Manager](#npm-the-worlds-largest-package-manager)
+- [Angular and React](#angular-and-react)
+- [Redux: State Management for all](#redux-state-management-for-all)
+
+
+
 # New Ways of Declaring Variables
 
 ES2015 introduced two new way of declaring variables: **let** and **const**.
@@ -26,7 +40,7 @@ Suppose, we have an array of numbers and we need to produce another array that c
 The first solution that comes into our mind is to\ 
 **declare an empty array**\
 **write a for loop**\
-**write an if statement to check if the number at given index is even**\
+**write an if statement to check if the number at given index is even**
 
 Or, we could simply use the **filter** method:\
 **[1,2,3,4,5,6].filter((num) => num % 2 === 0); //Output: [2,4,6]**
@@ -39,7 +53,7 @@ The first solution that comes into our mind is to\
 **write a for loop that takes each number and adds the value to our created variable**
 
 Or, We can simply use **reduce** method:\
-**[1,2,3,4,5,6].reduce((a,b) => a + b); //Output: 21**\
+**[1,2,3,4,5,6].reduce((a,b) => a + b); //Output: 21**
 
 **This method takes first two elements as parameter and adds them and reduces the element and so on.**
 
