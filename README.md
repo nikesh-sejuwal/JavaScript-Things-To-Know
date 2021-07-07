@@ -1,4 +1,5 @@
-#Table Of Content
+# Table Of Content
+- [Table Of Content](#table-of-content)
 - [New Ways of Declaring Variables](#new-ways-of-declaring-variables)
 - [Replace **'for'** loops with **'map'**](#replace-for-loops-with-map)
 - [Replace **'for'** loops with **'filter'**](#replace-for-loops-with-filter)
