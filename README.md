@@ -28,8 +28,8 @@ The main benefit of using **'let'** and **'const'** over **'var'** is that when 
 
 Suppose, we have an array of numbers and we need to produce another array by doubling all the numbers in the array.
 The first solution that comes into our mind is to\ 
-- **declare an empty array**\
-- **write a for loop**\
+- **declare an empty array**
+- **write a for loop**
 - **append a number in the second array by looking up the index on first array by doubling the number**
 
 But we have a more simple and easier solution by mapping the array to another array:\
@@ -39,8 +39,8 @@ But we have a more simple and easier solution by mapping the array to another ar
 
 Suppose, we have an array of numbers and we need to produce another array that contains only the even number from the first array.
 The first solution that comes into our mind is to\ 
-- **declare an empty array**\
-- **write a for loop**\
+- **declare an empty array**
+- **write a for loop**
 - **write an if statement to check if the number at given index is even**
 
 Or, we could simply use the **filter** method:\
@@ -50,7 +50,7 @@ Or, we could simply use the **filter** method:\
 # REPLACE **'FOR'** LOOPS WITH **'REDUCE'**
 Suppose, we need to calculate the sum of all numbers in the array.
 The first solution that comes into our mind is to\
-- **declare a variable initializing its initial value to Zero**\
+- **declare a variable initializing its initial value to Zero**
 - **write a for loop that takes each number and adds the value to our created variable**
 
 Or, We can simply use **reduce** method:\
