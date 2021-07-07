@@ -1,7 +1,5 @@
+#Table Of Content
 - [New Ways of Declaring Variables](#new-ways-of-declaring-variables)
-    - [**'let'** is used when a variable will be reasigned.](#let-is-used-when-a-variable-will-be-reasigned)
-    - [**'const'** is used when we need to keep a variable protected from being reasigned.](#const-is-used-when-we-need-to-keep-a-variable-protected-from-being-reasigned)
-  - [Note: **'const'** does not freeze arrays and objects and it doesn't stop properties from being mutated or changed.](#note-const-does-not-freeze-arrays-and-objects-and-it-doesnt-stop-properties-from-being-mutated-or-changed)
 - [Replace **'for'** loops with **'map'**](#replace-for-loops-with-map)
 - [Replace **'for'** loops with **'filter'**](#replace-for-loops-with-filter)
 - [Replace **'for'** loops with **'reduce'**](#replace-for-loops-with-reduce)
@@ -16,10 +14,10 @@
 
 ES2015 introduced two new way of declaring variables: **let** and **const**.
 
-### **'let'** is used when a variable will be reasigned.
-### **'const'** is used when we need to keep a variable protected from being reasigned.
+**'let'** is used when a variable will be reasigned.
+**'const'** is used when we need to keep a variable protected from being reasigned.
 
-## Note: **'const'** does not freeze arrays and objects and it doesn't stop properties from being mutated or changed.
+**Note: 'const' does not freeze arrays and objects and it doesn't stop properties from being mutated or changed.**
 
 The main benefit of using **'let'** and **'const'** over **'var'** is that when using var our code gets scoped to the top of current function, therefore making the variable available to whole function. Therefore, with the use of **'let'** and **'const'**, we do not need to worry about the variable scope leaking outside.
 
