@@ -17,8 +17,8 @@
 
 ES2015 introduced two new way of declaring variables: **let** and **const**.
 
-**'let'** is used when a variable will be reassigned.
-**'const'** is used when we need to keep a variable protected from being reassigned.
+- **'let'** is used when a variable will be reassigned.
+- **'const'** is used when we need to keep a variable protected from being reassigned.
 
 **Note: 'const' does not freeze arrays and objects and it doesn't stop properties from being mutated or changed.**
 
@@ -28,35 +28,35 @@ The main benefit of using **'let'** and **'const'** over **'var'** is that when 
 
 Suppose, we have an array of numbers and we need to produce another array by doubling all the numbers in the array.
 The first solution that comes into our mind is to\ 
-**declare an empty array**\
-**write a for loop**\
-**append a number in the second array by looking up the index on first array by doubling the number**
+- **declare an empty array**\
+- **write a for loop**\
+- **append a number in the second array by looking up the index on first array by doubling the number**
 
 But we have a more simple and easier solution by mapping the array to another array:\
-**[1,2,3,4].map((num) => num * 2); //Output: [2,4,6,8]**
+- **[1,2,3,4].map((num) => num * 2); //Output: [2,4,6,8]**
 
 # REPLACE **'FOR'** LOOPS WITH **'FILTER'**
 
 Suppose, we have an array of numbers and we need to produce another array that contains only the even number from the first array.
 The first solution that comes into our mind is to\ 
-**declare an empty array**\
-**write a for loop**\
-**write an if statement to check if the number at given index is even**
+- **declare an empty array**\
+- **write a for loop**\
+- **write an if statement to check if the number at given index is even**
 
 Or, we could simply use the **filter** method:\
-**[1,2,3,4,5,6].filter((num) => num % 2 === 0); //Output: [2,4,6]**
+- **[1,2,3,4,5,6].filter((num) => num % 2 === 0); //Output: [2,4,6]**
 
 
 # REPLACE **'FOR'** LOOPS WITH **'REDUCE'**
 Suppose, we need to calculate the sum of all numbers in the array.
 The first solution that comes into our mind is to\
-**declare a variable initializing its initial value to Zero**\
-**write a for loop that takes each number and adds the value to our created variable**
+- **declare a variable initializing its initial value to Zero**\
+- **write a for loop that takes each number and adds the value to our created variable**
 
 Or, We can simply use **reduce** method:\
-**[1,2,3,4,5,6].reduce((a,b) => a + b); //Output: 21**
+- **[1,2,3,4,5,6].reduce((a,b) => a + b); //Output: 21**
 
-**This method takes first two elements as parameter and adds them and reduces the element and so on.**
+- **This method takes first two elements as parameter and adds them and reduces the element and so on.**
 
 # SERVER-SIDE JAVASCRIPT WITH NODE.JS 
 Node.js allows JavaScript to be used on the server side. With the use of Node.Js, we do not have to change the language when switching back and forth between client and server code. It also allows libraries to be shared between the code and the server which decreases the amount of duplicate code one has to write.
