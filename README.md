@@ -52,11 +52,13 @@ Suppose, we need to calculate the sum of all numbers in the array.
 The first solution that comes into our mind is to\
 - **declare a variable initializing its initial value to Zero**
 - **write a for loop that takes each number and adds the value to our created variable**
-    let sum = 0;
-    let arr = [1,2,3,4,5,6];
-    for (let i = 0; i < arr.length; i++) {
-        sum += arr[i]; // sum = sum + arr[i];
-    }     //Output: 21
+```js
+let sum = 0;
+let arr = [1,2,3,4,5,6];
+for (let i = 0; i < arr.length; i++) {
+    sum += arr[i]; // sum = sum + arr[i];
+}     //Output: 21
+```
 
 Or, We can simply use **reduce** method:
 - **[1,2,3,4,5,6].reduce((a,b) => a + b); //Output: 21**
