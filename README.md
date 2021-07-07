@@ -33,7 +33,9 @@ The first solution that comes into our mind is to
 - **append a number in the second array by looking up the index on first array by doubling the number**
 
 But we have a more simple and easier solution by mapping the array to another array:
-- **[1,2,3,4].map((num) => num * 2); //Output: [2,4,6,8]**
+```js
+[1,2,3,4].map((num) => num * 2); //Output: [2,4,6,8]
+```
 
 # REPLACE **'FOR'** LOOPS WITH **'FILTER'**
 
@@ -44,7 +46,9 @@ The first solution that comes into our mind is to
 - **write an if statement to check if the number at given index is even**
 
 Or, we could simply use the **filter** method:
-- **[1,2,3,4,5,6].filter((num) => num % 2 === 0); //Output: [2,4,6]**
+```js
+[1,2,3,4,5,6].filter((num) => num % 2 === 0); //Output: [2,4,6]
+```
 
 
 # REPLACE **'FOR'** LOOPS WITH **'REDUCE'**
@@ -61,7 +65,9 @@ for (let i = 0; i < arr.length; i++) {
 ```
 
 Or, We can simply use **reduce** method:
-- **[1,2,3,4,5,6].reduce((a,b) => a + b); //Output: 21**
+```js
+[1,2,3,4,5,6].reduce((a,b) => a + b); //Output: 21
+```
 
 - **This method takes first two elements as parameter and adds them and reduces the element and so on.**
 
