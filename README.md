@@ -8,7 +8,7 @@
 - [NPM: THE WORLD'S LARGEST PACKAGE MANAGER](#npm-the-worlds-largest-package-manager)
 - [ANGULAR AND REACT](#angular-and-react)
 - [REDUX: STATE MANAGEMENT FOR ALL](#redux-state-management-for-all)
-- [REMEMBER SEMICOLONS ARE OPTIONAL](#remember-semicolons-are-optional)
+- [SEMICOLONS ARE OPTIONAL](#semicolons-are-optional)
 - [ESLint](#eslint)
 
 
@@ -76,7 +76,7 @@ You will often hear a dispute between Angular and React developers on which is a
 # REDUX: STATE MANAGEMENT FOR ALL
 Redux Library helps us to keep up with the application's state while writing a dynamic user interfaces. Redux is commonly used alongside React and is slowly adopted by the Angular community. If we are writing a large application, we should be using Redux from get-go since it helps us to write applications that behave consistently and offers great developer experience.
 
-# REMEMBER SEMICOLONS ARE OPTIONAL
+# SEMICOLONS ARE OPTIONAL
 The official specification of JavaScript language has a feature called automatic semicolon insertion that has caused riots within the community. Most of the developers are now dropping semicolons in their JavaScript code, mostly due to personal preference. If that's something you are interested in doing, make sure to use a code linter such as **ESLint** to help you avoid some bugs.
 
 # ESLint
