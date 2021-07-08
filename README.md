@@ -32,6 +32,15 @@ The first solution that comes into our mind is to
 - **write a for loop**
 - **append a number in the second array by looking up the index on first array by doubling the number**
 
+```js
+doubleArray = [];
+givenArray = [1,2,3,4,5,6];
+for (let i = 0; i < givenArray.length; i++) {
+    doubleArray.push(givenArray[i] * 2);
+}
+console.log(doubleArray);
+```
+
 But we have a more simple and easier solution by mapping the array to another array:
 ```js
 [1,2,3,4].map((num) => num * 2); //Output: [2,4,6,8]
@@ -44,6 +53,15 @@ The first solution that comes into our mind is to
 - **declare an empty array**
 - **write a for loop**
 - **write an if statement to check if the number at given index is even**
+
+```js
+evenArray = [];
+givenArray = [1,2,3,4,5,6];
+for (let i = 0; i < givenArray.length; i++) {
+    if (givenArray[i] % 2 === 0) evenArray.push(givenArray[i]);
+}
+console.log(evenArray);
+```
 
 Or, we could simply use the **filter** method:
 ```js
@@ -75,7 +93,7 @@ Or, We can simply use **reduce** method:
 Node.js allows JavaScript to be used on the server side. With the use of Node.Js, we do not have to change the language when switching back and forth between client and server code. It also allows libraries to be shared between the code and the server which decreases the amount of duplicate code one has to write.
 
 # NPM: THE WORLD'S LARGEST PACKAGE MANAGER
-The Node Package Manager is the biggest package manager in the world plus the level of collaboration that happens within the community makes writing and application much more convenient for us. With the rise of NPM, increasing number of developers are getting rid of alternative solutions and simply sticking with NPM for everything.
+The Node Package Manager is the biggest package manager in the world plus the level of collaboration that happens within the community makes writing and application much more convenient for us. With the rise of NPM, increasing number of developers are getting rid of alternative solutions and simply sticking with NPM for everything.\Understanding **npm** is not strictly necessary to JavaScript development, but it's increasingly becoming the package management tool of choice. For Node development, it's practically essential as it makes development life a lot easier.
 
 # ANGULAR AND REACT
 Angular is a framework maintained by Google along with open-source community. Recent versions of Angular have taken things to a next level, transforming Angular into a full platform that allows development of not only web UIs but also native mobile applications development and more.\
